@@ -1,0 +1,121 @@
+name: 🔄 同步已关闭的Issues
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 每天 UTC 时间 2:00 运行 (北京时间 10:00)
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  sync-closed-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq curl
+          
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+      - name: Fetch original plugin data
+        run: |
+          echo "开始获取原始插件数据..."
+          github_url="https://raw.githubusercontent.com/vmoranv/AstrBot_Plugins_Collection/main/plugins.json"
+          
+          # 使用curl获取数据
+          http_code=$(curl -L -s --max-time 30 \
+            -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
+            -H "User-Agent: GitHub-Action-Plugin-Transformer" \
+            -H "Accept: application/json" \
+            -w "%{http_code}" \
+            -o "original_plugins.json" \
+            "$github_url")
+          
+          echo "HTTP状态码: $http_code"
+          
+          # 检查HTTP状态码
+          if [ "$http_code" -ne 200 ]; then
+            echo "❌ 获取原始数据失败"
+            exit 1
+          fi
+          
+          # 检查是否为有效的JSON
+          if ! jq empty original_plugins.json > /dev/null 2>&1; then
+            echo "❌ 响应不是有效的JSON格式"
+            exit 1
+          fi
+          
+          echo "✅ 成功获取原始插件数据"
+          
+      - name: Get closed issues
+        id: get_issues
+        run: |
+          echo "获取已关闭的Issues..."
+          
+          # 获取已关闭的Issues列表 (状态为closed且有plugin-publish标签)
+          closed_issues=$(curl -s -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/issues?state=closed&labels=plugin-publish&per_page=100" | \
+            jq -r 'map({key: .title, value: .number}) | from_entries')
+          
+          echo "closed_issues=$closed_issues" >> $GITHUB_ENV
+          
+      - name: Process plugins and clean up deleted issues
+        run: |
+          echo "处理插件数据并清理已删除的issue..."
+          
+          # 创建临时文件
+          touch temp_plugins.json
+          
+          # 读取原始插件数据
+          if [ ! -f original_plugins.json ]; then
+            echo "❌ 未找到原始插件数据文件"
+            exit 1
+          fi
+          
+          # 复制原始数据到临时文件
+          cp original_plugins.json temp_plugins.json
+          
+          # 获取当前插件名称列表
+          plugin_names=$(jq -r 'keys[]' temp_plugins.json)
+          
+          # 遍历已关闭的Issues
+          echo "$closed_issues" | jq -r 'to_entries[] | "\(.key):\(.value)"' | while IFS=':' read -r issue_title issue_number; do
+            # 提取插件名称 (从issue标题中)
+            # 假设标题格式为 "[Plugin] 插件名"
+            plugin_name_from_issue=$(echo "$issue_title" | sed -E 's/\[Plugin\] //')
+            
+            # 检查该插件是否还在原始数据中
+            if ! echo "$plugin_names" | grep -q "^$plugin_name_from_issue$"; then
+              echo "插件 $plugin_name_from_issue 已从原始数据中删除，关闭的Issue #$issue_number 将被清理"
+              
+              # 删除已关闭且对应插件已删除的Issue
+              curl -s -X PATCH \
+                -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
+                -H "Accept: application/vnd.github.v3+json" \
+                -d '{"state": "closed"}' \
+                "https://api.github.com/repos/${{ github.repository }}/issues/$issue_number"
+            else
+              echo "插件 $plugin_name_from_issue 仍在原始数据中，保留Issue #$issue_number"
+            fi
+          done
+          
+          echo "✅ 清理完成"
+          
+      - name: Commit and push changes (if any)
+        run: |
+          git add .
+          git diff --cached --quiet || git commit -m "🧹 清理已删除插件对应的已关闭Issues"
+          git push origin main
