@@ -14,7 +14,7 @@ temp_response="temp_response.txt"
 temp_headers="temp_headers.txt"
 
 # 获取GitHub原始文件内容
-github_url="https://raw.githubusercontent.com/AstrBotDevs/AstrBot_Plugins_Collection/main/plugins.json"
+github_url="https://raw.githubusercontent.com/vmoranv/AstrBot_Plugins_Collection/main/plugins.json"
 
 # 使用curl获取数据，添加-L参数自动跟随重定向，增加重定向限制
 http_code=$(curl -L -s --max-time 30 --retry 3 --retry-delay 5 \
