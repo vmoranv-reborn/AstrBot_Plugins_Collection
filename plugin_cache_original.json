@@ -1,0 +1,15 @@
+{
+  "astrbot_plugin_pornhub": {
+    "display_name": "玉米集线器视频大调查",
+    "desc": "玉米集线器视频大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_pornhub",
+    "tags": [
+      "pornhub",
+      "视频"
+    ],
+    "stars": 0,
+    "updated_at": "2025-11-14T12:15:27Z",
+    "version": "v1.0.0"
+  }
+}
