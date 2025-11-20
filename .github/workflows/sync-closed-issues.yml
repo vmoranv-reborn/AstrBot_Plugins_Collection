@@ -264,21 +264,36 @@ jobs:
           
       - name: Commit and push changes (if any)
         run: |
-          # 先添加所有更改
+          # 检查文件状态
+          echo "=== 检查文件状态 ==="
+          git status
+          echo "=== 检查plugins.json是否有更改 ==="
+          git diff plugins.json || echo "plugins.json没有更改"
+          
+          # 先拉取远程更改，避免冲突
+          echo "=== 拉取远程更改 ==="
+          git pull --rebase https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main || {
+            echo "Rebase失败，尝试stash然后pull"
+            git stash
+            git pull --rebase https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+            git stash pop
+          }
+          
+          # 添加所有更改
+          echo "=== 添加文件到暂存区 ==="
           git add .
+          
+          # 再次检查文件状态
+          echo "=== 暂存后文件状态 ==="
+          git status
           
           # 检查是否有需要提交的更改
           if git diff --cached --quiet; then
             echo "没有需要提交的更改"
           else
             echo "检测到更改，准备提交"
-            # 先拉取远程更改
-            git pull --rebase https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main || {
-              echo "Rebase失败，尝试stash然后pull"
-              git stash
-              git pull --rebase https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
-              git stash pop
-            }
+            echo "=== 暂存区更改详情 ==="
+            git diff --cached
             
             # 提交更改
             git commit -m "🔄 同步已关闭Issues中的插件信息到plugins.json"
