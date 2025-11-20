@@ -80,19 +80,38 @@ jobs:
         run: |
           echo "获取已关闭的Issues..."
           
+          # 先尝试获取所有已关闭的Issues，不限制标签
+          echo "调试：获取所有已关闭的Issues..."
+          all_closed_issues=$(curl -s -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/issues?state=closed&per_page=100")
+          
+          echo "所有已关闭Issues数量: $(echo "$all_closed_issues" | jq 'length')"
+          echo "所有已关闭Issues标题:"
+          echo "$all_closed_issues" | jq -r '.[].title'
+          
           # 获取已关闭的Issues列表 (状态为closed且有plugin-publish标签)
+          echo "调试：尝试获取带plugin-publish标签的Issues..."
           closed_issues=$(curl -s -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             "https://api.github.com/repos/${{ github.repository }}/issues?state=closed&labels=plugin-publish&per_page=100" | \
             jq -r 'map({key: .title, value: .number}) | from_entries')
           
+          echo "带plugin-publish标签的Issues: $closed_issues"
           echo "closed_issues=$closed_issues" >> $GITHUB_ENV
           
-          # 获取已关闭Issues的详细信息（包含插件信息）
-          closed_issues_details=$(curl -s -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/${{ github.repository }}/issues?state=closed&labels=plugin-publish&per_page=100")
+          # 如果没有找到带plugin-publish标签的Issues，则使用所有已关闭的Issues
+          if [ "$closed_issues" = "{}" ]; then
+            echo "未找到带plugin-publish标签的Issues，使用所有已关闭的Issues..."
+            closed_issues_details="$all_closed_issues"
+          else
+            # 获取已关闭Issues的详细信息（包含插件信息）
+            closed_issues_details=$(curl -s -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              "https://api.github.com/repos/${{ github.repository }}/issues?state=closed&labels=plugin-publish&per_page=100")
+          fi
           
+          echo "最终使用的Issues数量: $(echo "$closed_issues_details" | jq 'length')"
           echo "$closed_issues_details" > closed_issues_details.json
           
       - name: Process plugins and clean up deleted issues
