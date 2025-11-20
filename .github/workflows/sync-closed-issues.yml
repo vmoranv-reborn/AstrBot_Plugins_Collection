@@ -150,41 +150,57 @@ jobs:
             
             # 尝试从issue body中提取插件信息
             if [ "$issue_body" != "null" ] && [ "$issue_body" != "" ]; then
-              # 查找JSON格式的插件信息
-              # 首先尝试从代码块中提取JSON
-              plugin_info=$(echo "$issue_body" | sed -n '/```json/,/```/p' | grep -v '```' | head -1)
+              # 直接使用Python来解析和提取JSON
+              echo "使用Python解析Issue #$issue_number 的插件信息..."
               
-              # 如果代码块中没有找到，尝试直接查找JSON
-              if [ -z "$plugin_info" ]; then
-                plugin_info=$(echo "$issue_body" | grep -o '{[^{}]*"repo"[^{}]*}' | head -1)
-              fi
+              python3 -c "
+import json
+import re
+import sys
+
+# 从issue body中提取JSON
+body = '''$issue_body'''
+# 查找```json代码块中的内容
+json_match = re.search(r'```json\s*\n(.*?)\n```', body, re.DOTALL)
+if json_match:
+    json_str = json_match.group(1)
+    try:
+        # 解析JSON
+        plugin_data = json.loads(json_str)
+        # 重新格式化并输出
+        print(json.dumps(plugin_data, ensure_ascii=False))
+        sys.exit(0)
+    except json.JSONDecodeError as e:
+        print(f'JSON解析错误: {e}', file=sys.stderr)
+        sys.exit(1)
+else:
+    print('未找到JSON代码块', file=sys.stderr)
+    sys.exit(1)
+" > python_extracted_json.txt 2> python_error.txt
               
-              # 如果还是没有找到，尝试更宽泛的JSON匹配
-              if [ -z "$plugin_info" ]; then
-                plugin_info=$(echo "$issue_body" | grep -o '{[^{}]*"display_name"[^{}]*}' | head -1)
-              fi
-              
-              if [ -n "$plugin_info" ]; then
-                echo "从Issue #$issue_number 中提取到插件信息"
-                echo "插件信息预览: $(echo "$plugin_info" | head -c 200)..."
-                
-                # 验证JSON格式并更新插件信息
-                if echo "$plugin_info" | jq . > /dev/null 2>&1; then
+              if [ -s python_extracted_json.txt ]; then
+                python_plugin_info=$(cat python_extracted_json.txt)
+                if echo "$python_plugin_info" | jq . > /dev/null 2>&1; then
+                  echo "✅ Python成功提取并验证JSON"
+                  
                   # 获取插件ID（从插件名称生成）
                   plugin_id=$(echo "$plugin_name_from_issue" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/_/g')
                   
                   # 更新插件信息到temp_plugins.json
-                  jq --arg id "$plugin_id" --argjson info "$plugin_info" '.[$id] = $info' temp_plugins.json > temp_plugins_updated.json && mv temp_plugins_updated.json temp_plugins.json
+                  jq --arg id "$plugin_id" --argjson info "$python_plugin_info" '.[$id] = $info' temp_plugins.json > temp_plugins_updated.json && mv temp_plugins_updated.json temp_plugins.json
                   
-                  echo "✅ 已更新插件 $plugin_name_from_issue 的信息"
+                  echo "✅ 已更新插件 $plugin_name_from_issue 的信息（使用Python提取）"
                 else
-                  echo "❌ 插件信息JSON格式无效"
-                  echo "原始插件信息: $plugin_info"
+                  echo "❌ Python提取的JSON格式无效"
                 fi
               else
-                echo "未在Issue #$issue_number 中找到有效的插件信息"
-                echo "Issue body 预览: $(echo "$issue_body" | head -c 200)..."
+                echo "❌ Python未能提取JSON"
+                echo "Python错误信息:"
+                cat python_error.txt
               fi
+              
+              # 清理临时文件
+              rm -f python_extracted_json.txt python_error.txt
             else
               echo "Issue #$issue_number 没有内容，跳过"
             fi
