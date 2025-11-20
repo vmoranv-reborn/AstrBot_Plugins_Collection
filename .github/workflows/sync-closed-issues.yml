@@ -129,46 +129,39 @@ jobs:
             
             echo "处理Issue #$issue_number: $plugin_name_from_issue"
             
-            # 检查该插件是否还在原始数据中
-            if ! echo "$plugin_names" | grep -q "^$plugin_name_from_issue$"; then
-              echo "插件 $plugin_name_from_issue 已从原始数据中删除，关闭的Issue #$issue_number 将被清理"
+            # 尝试从issue body中提取插件信息
+            if [ "$issue_body" != "null" ] && [ "$issue_body" != "" ]; then
+              # 查找JSON格式的插件信息
+              # 假设插件信息在代码块中或直接以JSON格式提供
+              plugin_info=$(echo "$issue_body" | grep -o '{[^}]*"repo"[^}]*}' | head -1)
               
-              # 删除已关闭且对应插件已删除的Issue
-              curl -s -X PATCH \
-                -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
-                -H "Accept: application/vnd.github.v3+json" \
-                -d '{"state": "closed"}' \
-                "https://api.github.com/repos/${{ github.repository }}/issues/$issue_number"
-            else
-              echo "插件 $plugin_name_from_issue 仍在原始数据中，保留Issue #$issue_number"
-              
-              # 尝试从issue body中提取插件信息
-              if [ "$issue_body" != "null" ] && [ "$issue_body" != "" ]; then
-                # 查找JSON格式的插件信息
-                # 假设插件信息在代码块中或直接以JSON格式提供
-                plugin_info=$(echo "$issue_body" | grep -o '{[^}]*"repo"[^}]*}' | head -1)
+              if [ -n "$plugin_info" ]; then
+                echo "从Issue #$issue_number 中提取到插件信息"
                 
-                if [ -n "$plugin_info" ]; then
-                  echo "从Issue #$issue_number 中提取到插件信息"
+                # 验证JSON格式并更新插件信息
+                if echo "$plugin_info" | jq . > /dev/null 2>&1; then
+                  # 获取插件ID（从插件名称生成）
+                  plugin_id=$(echo "$plugin_name_from_issue" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/_/g')
                   
-                  # 验证JSON格式并更新插件信息
-                  if echo "$plugin_info" | jq . > /dev/null 2>&1; then
-                    # 获取插件ID（从插件名称生成）
-                    plugin_id=$(echo "$plugin_name_from_issue" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/_/g')
-                    
-                    # 更新插件信息到temp_plugins.json
-                    jq --arg id "$plugin_id" --argjson info "$plugin_info" '.[$id] = $info' temp_plugins.json > temp_plugins_updated.json && mv temp_plugins_updated.json temp_plugins.json
-                    
-                    echo "✅ 已更新插件 $plugin_name_from_issue 的信息"
-                  else
-                    echo "❌ 插件信息JSON格式无效"
-                  fi
+                  # 更新插件信息到temp_plugins.json
+                  jq --arg id "$plugin_id" --argjson info "$plugin_info" '.[$id] = $info' temp_plugins.json > temp_plugins_updated.json && mv temp_plugins_updated.json temp_plugins.json
+                  
+                  echo "✅ 已更新插件 $plugin_name_from_issue 的信息"
                 else
-                  echo "未在Issue #$issue_number 中找到有效的插件信息"
+                  echo "❌ 插件信息JSON格式无效"
                 fi
               else
-                echo "Issue #$issue_number 没有内容，跳过"
+                echo "未在Issue #$issue_number 中找到有效的插件信息"
               fi
+            else
+              echo "Issue #$issue_number 没有内容，跳过"
+            fi
+            
+            # 检查该插件是否还在原始数据中
+            if ! echo "$plugin_names" | grep -q "^$plugin_name_from_issue$"; then
+              echo "插件 $plugin_name_from_issue 不在原始数据中，但已从Issue中添加"
+            else
+              echo "插件 $plugin_name_from_issue 仍在原始数据中，保留Issue #$issue_number"
             fi
           done
           
