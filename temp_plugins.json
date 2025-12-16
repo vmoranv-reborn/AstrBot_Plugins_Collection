@@ -19,5 +19,16 @@
       "pixiv"
     ],
     "social_link": "https://github.com/vmoranv-reborn"
+  },
+  "astrbot_plugin_search_that": {
+    "name": "astrbot_plugin_search_that",
+    "display_name": "search_that",
+    "desc": "车牌号寻血猎犬",
+    "author": "vmoranv-reborn",
+    "repo": "https://github.com/vmoranv-reborn/astrbot_plugin_search_that",
+    "tags": [
+      "车牌号"
+    ],
+    "social_link": "https://github.com/vmoranv-reborn"
   }
 }
