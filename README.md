@@ -6,7 +6,7 @@
 ## 插件提交
 
 > [!NOTE]
-> 请前往三方仓库提交您的插件：[🥳 发布插件](https://github.com/vmoranv/AstrBot_Plugins_Collection/issues/new?template=PLUGIN_PUBLISH.yml)
+> 请前往三方仓库提交您的插件：[🥳 发布插件](https://github.com/vmoranv-reborn/AstrBot_Plugins_Collection/issues/new?template=PLUGIN_PUBLISH.yml)
 
 ## 自动化数据处理脚本
 
