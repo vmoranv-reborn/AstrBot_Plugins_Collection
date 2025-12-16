@@ -1,12 +1,12 @@
 # AstrBot Plugins Collection
 
-![GitHub last commit](https://img.shields.io/github/last-commit/vmoranv/AstrBot_Plugins_Collection)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vmoranv/AstrBot_Plugins_Collection)
+![GitHub last commit](https://img.shields.io/github/last-commit/vmoranv-reborn/AstrBot_Plugins_Collection)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vmoranv-reborn/AstrBot_Plugins_Collection)
 
 ## 插件提交
 
 > [!NOTE]
-> 请前往三方仓库提交您的插件：[🥳 发布插件](https://github.com/vmoranv/AstrBot_Plugins_Collection/issues/new?template=PLUGIN_PUBLISH.yml)
+> 请前往三方仓库提交您的插件：[🥳 发布插件](https://github.com/vmoranv-reborn/AstrBot_Plugins_Collection/issues/new?template=PLUGIN_PUBLISH.yml)
 
 ## 自动化数据处理脚本
 

@@ -48,7 +48,7 @@ jobs:
       - name: Fetch original plugin data
         run: |
           echo "开始获取原始插件数据..."
-          github_url="https://raw.githubusercontent.com/vmoranv/AstrBot_Plugins_Collection/main/plugins.json"
+          github_url="https://raw.githubusercontent.com/vmoranv-reborn/AstrBot_Plugins_Collection/main/plugins.json"
           
           # 使用curl获取数据
           http_code=$(curl -L -s --max-time 30 \
