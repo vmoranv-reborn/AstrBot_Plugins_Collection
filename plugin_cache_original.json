@@ -27,5 +27,19 @@
     "updated_at": "2025-12-15T14:09:02Z",
     "version": "1.4.3",
     "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn/main/logo.png"
+  },
+  "astrbot_plugin_search_that": {
+    "name": "astrbot_plugin_search_that",
+    "display_name": "search_that",
+    "desc": "车牌号寻血猎犬",
+    "author": "vmoranv-reborn",
+    "repo": "https://github.com/vmoranv-reborn/astrbot_plugin_search_that",
+    "tags": [
+      "车牌号"
+    ],
+    "social_link": "https://github.com/vmoranv-reborn",
+    "stars": 0,
+    "updated_at": "2025-12-16T02:49:31Z",
+    "version": "1.0.0"
   }
 }
