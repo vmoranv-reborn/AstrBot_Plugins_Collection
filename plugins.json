@@ -1,5 +1,17 @@
 {
-  "plugins": {},
+  "plugins": {
+    "astrbot_plugin_pixiv_reborn": {
+      "name": "astrbot_plugin_pixiv_reborn",
+      "display_name": "astrbot_plugin_pixiv_reborn",
+      "desc": "通过标签在 Pixiv 上搜索插画。用法 /pixiv tag1,tag2,... 可在配置中设置认证信息、返回数量和 R18 过滤模式。",
+      "author": "vmoranv-reborn",
+      "repo": "https://github.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn",
+      "tags": [
+        "pixiv"
+      ],
+      "social_link": "https://github.com/vmoranv-reborn"
+    }
+  },
   "last_updated": "2025-12-16T00:00:00Z",
   "version": "1.0"
 }
