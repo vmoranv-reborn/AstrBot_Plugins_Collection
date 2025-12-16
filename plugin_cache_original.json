@@ -41,5 +41,16 @@
     "stars": 0,
     "updated_at": "2025-12-16T02:49:31Z",
     "version": "1.0.0"
+  },
+  "astrbot_plugin_91vip": {
+    "name": "astrbot_plugin_91vip",
+    "display_name": "91VIP视频爬虫",
+    "desc": "91porn视频爬虫插件，支持获取视频列表和自动打码封面",
+    "author": "vmoranv-reborn",
+    "repo": "https://github.com/vmoranv-reborn/astrbot_plugin_91vip",
+    "tags": [
+      "91"
+    ],
+    "social_link": "https://github.com/vmoranv-reborn"
   }
 }
