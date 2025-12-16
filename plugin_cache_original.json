@@ -9,8 +9,23 @@
       "视频"
     ],
     "stars": 0,
-    "updated_at": "2025-11-15T10:33:14Z",
+    "updated_at": "2025-12-16T02:38:33Z",
     "version": "v1.0.0",
     "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pornhub/master/logo.png"
+  },
+  "astrbot_plugin_pixiv_reborn": {
+    "name": "astrbot_plugin_pixiv_reborn",
+    "display_name": "astrbot_plugin_pixiv_reborn",
+    "desc": "通过标签在 Pixiv 上搜索插画。用法 /pixiv tag1,tag2,... 可在配置中设置认证信息、返回数量和 R18 过滤模式。",
+    "author": "vmoranv-reborn",
+    "repo": "https://github.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn",
+    "tags": [
+      "pixiv"
+    ],
+    "social_link": "https://github.com/vmoranv-reborn",
+    "stars": 1,
+    "updated_at": "2025-12-15T14:09:02Z",
+    "version": "1.4.3",
+    "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn/main/logo.png"
   }
 }
