@@ -56,5 +56,20 @@
     "stars": 0,
     "updated_at": "2025-12-16T02:47:02Z",
     "version": "v1.0.0"
+  },
+  "astrbot_plugin_pica": {
+    "name": "astrbot_plugin_pica",
+    "display_name": "哔咔大调查",
+    "desc": "哔咔漫画搜索、收藏管理和下载插件。",
+    "author": "vmoranv-reborn",
+    "repo": "https://github.com/vmoranv-reborn/astrbot_plugin_pica",
+    "tags": [
+      "哔咔",
+      "pica"
+    ],
+    "social_link": "https://github.com/vmoranv-reborn",
+    "stars": 0,
+    "updated_at": "2025-12-16T11:05:59Z",
+    "version": "v1.0.0"
   }
 }
