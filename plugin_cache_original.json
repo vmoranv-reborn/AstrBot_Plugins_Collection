@@ -71,5 +71,53 @@
     "stars": 0,
     "updated_at": "2025-12-16T11:05:59Z",
     "version": "v1.0.0"
+  },
+  "astrbot_plugin_xfreehd": {
+    "name": "astrbot_plugin_xfreehd",
+    "display_name": "XFreeHD大调查",
+    "desc": "提供XFreeHD网站的视频和相册信息查询功能",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xfreehd",
+    "tags": [
+      "xfreehd",
+      "相册",
+      "cdn"
+    ],
+    "social_link": "https://github.com/vmoranv",
+    "stars": 0,
+    "updated_at": "2025-12-25T14:24:13Z",
+    "version": "1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_xfreehd/master/logo.png"
+  },
+  "astrbot_plugin_spankbang": {
+    "name": "astrbot_plugin_spankbang",
+    "display_name": "SpankBang 搜索插件",
+    "desc": "SpankBang视频搜索插件，支持搜索视频并返回打码封面。",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_spankbang",
+    "tags": [
+      "spankbang",
+      "女优",
+      "频道"
+    ],
+    "social_link": "https://github.com/vmoranv",
+    "stars": 0,
+    "updated_at": "2025-12-25T13:42:48Z",
+    "version": "v1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_spankbang/master/logo.png"
+  },
+  "___": {
+    "name": "astrbot_plugin_asmr",
+    "display_name": "astrbot_plugin_asmr",
+    "desc": "ASMR音声搜索与播放",
+    "author": "CCYellowStar2",
+    "repo": "https://github.com/CCYellowStar2/astrbot_plugin_asmr",
+    "tags": [
+      "asmr"
+    ],
+    "social_link": "https://github.com/CCYellowStar2",
+    "stars": 2,
+    "updated_at": "2025-11-01T10:18:03Z",
+    "version": "v1.0"
   }
 }
