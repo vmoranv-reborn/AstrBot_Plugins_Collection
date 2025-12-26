@@ -54,5 +54,42 @@
       "pica"
     ],
     "social_link": "https://github.com/vmoranv-reborn"
+  },
+  "astrbot_plugin_xfreehd": {
+    "name": "astrbot_plugin_xfreehd",
+    "display_name": "XFreeHD大调查",
+    "desc": "提供XFreeHD网站的视频和相册信息查询功能",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xfreehd",
+    "tags": [
+      "xfreehd",
+      "相册",
+      "cdn"
+    ],
+    "social_link": "https://github.com/vmoranv"
+  },
+  "astrbot_plugin_spankbang": {
+    "name": "astrbot_plugin_spankbang",
+    "display_name": "SpankBang 搜索插件",
+    "desc": "SpankBang视频搜索插件，支持搜索视频并返回打码封面。",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_spankbang",
+    "tags": [
+      "spankbang",
+      "女优",
+      "频道"
+    ],
+    "social_link": "https://github.com/vmoranv"
+  },
+  "___": {
+    "name": "astrbot_plugin_asmr",
+    "display_name": "astrbot_plugin_asmr",
+    "desc": "ASMR音声搜索与播放",
+    "author": "CCYellowStar2",
+    "repo": "https://github.com/CCYellowStar2/astrbot_plugin_asmr",
+    "tags": [
+      "asmr"
+    ],
+    "social_link": "https://github.com/CCYellowStar2"
   }
 }
