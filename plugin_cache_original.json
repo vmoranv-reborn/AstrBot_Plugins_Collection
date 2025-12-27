@@ -119,5 +119,20 @@
     "stars": 2,
     "updated_at": "2025-11-01T10:18:03Z",
     "version": "v1.0"
+  },
+  "astrbot_plugin_beeg": {
+    "name": "astrbot_plugin_beeg",
+    "display_name": "Beeg视频插件",
+    "desc": "Beeg大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_beeg",
+    "tags": [
+      "beeg"
+    ],
+    "social_link": "https://github.com/vmoranv",
+    "stars": 0,
+    "updated_at": "2025-12-26T14:46:55Z",
+    "version": "v1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_beeg/master/logo.png"
   }
 }
