@@ -150,5 +150,22 @@
     "updated_at": "2025-12-27T13:46:55Z",
     "version": "1.0.0",
     "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_EPorner/master/logo.png"
+  },
+  "astrbot_plugin_xhamster": {
+    "name": "astrbot_plugin_xhamster",
+    "display_name": "XHamster大调查",
+    "desc": "XHamster视频搜索和信息查询插件",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xhamster",
+    "tags": [
+      "xhamster",
+      "女优",
+      "短视频"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2025-12-28T14:53:21Z",
+    "version": "v1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_xhamster/master/logo.png"
   }
 }
