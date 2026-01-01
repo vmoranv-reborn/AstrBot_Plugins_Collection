@@ -127,5 +127,25 @@
       "短视频"
     ],
     "social_link": "https://github.com/vmoranv/"
+  },
+  "astrbot_plugin_xnxx": {
+    "name": "astrbot_plugin_xnxx",
+    "display_name": "XNXX 视频查询插件",
+    "desc": "XNXX大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xnxx",
+    "tags": [
+      "xnxx"
+    ],
+    "social_link": "https://github.com/vmoranv/"
+  },
+  "astrbot_plugin_dailynews_agent": {
+    "name": "astrbot_plugin_dailynews_agent",
+    "display_name": "dailynews_agent",
+    "desc": "基于mutiagent的多消息源日报插件",
+    "author": "xunxiing",
+    "repo": "https://github.com/xunxiing/astrbot_dailynews_agent",
+    "tags": [],
+    "social_link": ""
   }
 }
