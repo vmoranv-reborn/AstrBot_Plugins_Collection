@@ -24,8 +24,8 @@
       "pixiv"
     ],
     "social_link": "https://github.com/vmoranv-reborn",
-    "stars": 1,
-    "updated_at": "2025-12-17T05:03:39Z",
+    "stars": 2,
+    "updated_at": "2026-01-01T05:20:07Z",
     "version": "1.4.3",
     "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn/main/logo.png"
   },
@@ -167,5 +167,32 @@
     "updated_at": "2025-12-28T14:53:21Z",
     "version": "v1.0.0",
     "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_xhamster/master/logo.png"
+  },
+  "astrbot_plugin_xnxx": {
+    "name": "astrbot_plugin_xnxx",
+    "display_name": "XNXX 视频查询插件",
+    "desc": "XNXX大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xnxx",
+    "tags": [
+      "xnxx"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2025-12-31T14:58:29Z",
+    "version": "v1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_xnxx/master/logo.png"
+  },
+  "astrbot_plugin_dailynews_agent": {
+    "name": "astrbot_plugin_dailynews_agent",
+    "display_name": "dailynews_agent",
+    "desc": "基于mutiagent的多消息源日报插件",
+    "author": "xunxiing",
+    "repo": "https://github.com/xunxiing/astrbot_dailynews_agent",
+    "tags": [],
+    "social_link": "",
+    "stars": 1,
+    "updated_at": "2026-01-01T02:32:44Z",
+    "version": "v0.3.0"
   }
 }
