@@ -147,5 +147,18 @@
     "repo": "https://github.com/xunxiing/astrbot_dailynews_agent",
     "tags": [],
     "social_link": ""
+  },
+  "astrbot_plugin_soushuba": {
+    "name": "astrbot_plugin_soushuba",
+    "display_name": "搜书吧助手",
+    "desc": "一款可用于获取搜书吧等网站最新网址及进行搜索的插件。 ",
+    "author": "Foolllll",
+    "repo": "https://github.com/Foolllll-J/astrbot_plugin_soushuba",
+    "tags": [
+      "网文",
+      "搜书吧",
+      "小说"
+    ],
+    "social_link": ""
   }
 }
