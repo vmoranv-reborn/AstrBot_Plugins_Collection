@@ -160,5 +160,17 @@
       "小说"
     ],
     "social_link": ""
+  },
+  "astrbot_plugin_sexcom": {
+    "name": "astrbot_plugin_sexcom",
+    "display_name": "Sexcom大调查",
+    "desc": "Sex.com图片获取与搜索插件",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_sexcom",
+    "tags": [
+      "sexcom",
+      "gif"
+    ],
+    "social_link": "https://github.com/vmoranv/"
   }
 }
