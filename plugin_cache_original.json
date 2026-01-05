@@ -211,5 +211,21 @@
     "updated_at": "2025-12-31T09:27:37Z",
     "version": "v1.1",
     "logo": "https://raw.githubusercontent.com/Foolllll-J/astrbot_plugin_soushuba/master/logo.png"
+  },
+  "astrbot_plugin_sexcom": {
+    "name": "astrbot_plugin_sexcom",
+    "display_name": "Sexcom大调查",
+    "desc": "Sex.com图片获取与搜索插件",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_sexcom",
+    "tags": [
+      "sexcom",
+      "gif"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-04T13:17:53Z",
+    "version": "v1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_sexcom/master/logo.png"
   }
 }
