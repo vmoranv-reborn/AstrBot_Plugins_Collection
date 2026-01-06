@@ -172,5 +172,16 @@
       "gif"
     ],
     "social_link": "https://github.com/vmoranv/"
+  },
+  "astrbot_plugin_missav": {
+    "name": "astrbot_plugin_missAV",
+    "display_name": "missAV大调查",
+    "desc": "missAV大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_missAV",
+    "tags": [
+      "missAV"
+    ],
+    "social_link": "https://github.com/vmoranv/"
   }
 }
