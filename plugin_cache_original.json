@@ -227,5 +227,20 @@
     "updated_at": "2026-01-04T13:17:53Z",
     "version": "v1.0.0",
     "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_sexcom/master/logo.png"
+  },
+  "astrbot_plugin_missav": {
+    "name": "astrbot_plugin_missAV",
+    "display_name": "missAV大调查",
+    "desc": "missAV大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_missAV",
+    "tags": [
+      "missAV"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-06T02:01:14Z",
+    "version": "1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_missAV/master/logo.png"
   }
 }
