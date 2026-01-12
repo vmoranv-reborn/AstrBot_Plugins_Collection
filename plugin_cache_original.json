@@ -242,5 +242,37 @@
     "updated_at": "2026-01-06T02:01:14Z",
     "version": "1.0.0",
     "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_missAV/master/logo.png"
+  },
+  "astrbot_plugin_jiahao": {
+    "name": "astrbot_plugin_jiahao",
+    "display_name": "嘉豪",
+    "desc": "艾路迪克都去导管室",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_jiahao",
+    "tags": [
+      "嘉豪",
+      "搓条",
+      "导管室"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2025-10-22T14:28:26Z",
+    "version": "1.0.2"
+  },
+  "jm_cosmos": {
+    "name": "astrbot_plugin_jm_cosmos",
+    "display_name": "JM-Cosmos",
+    "desc": "JM-Cosmos是一个基于jmcomic库的jm插件",
+    "author": "GEMILUXVII",
+    "repo": "https://github.com/GEMILUXVII/astrbot_plugin_jm_cosmos",
+    "tags": [
+      "jm",
+      "禁漫"
+    ],
+    "social_link": "https://github.com/GEMILUXVII",
+    "stars": 77,
+    "updated_at": "2026-01-10T15:36:49Z",
+    "version": "v2.6.5",
+    "logo": "https://raw.githubusercontent.com/GEMILUXVII/astrbot_plugin_jm_cosmos/main/logo.png"
   }
 }
