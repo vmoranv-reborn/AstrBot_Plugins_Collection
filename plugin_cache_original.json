@@ -24,8 +24,8 @@
       "pixiv"
     ],
     "social_link": "https://github.com/vmoranv-reborn",
-    "stars": 4,
-    "updated_at": "2026-01-13T12:42:54Z",
+    "stars": 5,
+    "updated_at": "2026-01-17T06:37:12Z",
     "version": "1.4.3",
     "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn/main/logo.png"
   },
@@ -53,8 +53,8 @@
       "91"
     ],
     "social_link": "https://github.com/vmoranv-reborn",
-    "stars": 0,
-    "updated_at": "2025-12-16T02:47:02Z",
+    "stars": 2,
+    "updated_at": "2026-01-17T12:44:44Z",
     "version": "v1.0.0"
   },
   "astrbot_plugin_pica": {
@@ -208,7 +208,7 @@
     ],
     "social_link": "",
     "stars": 0,
-    "updated_at": "2025-12-31T09:27:37Z",
+    "updated_at": "2026-01-16T13:14:31Z",
     "version": "v1.1",
     "logo": "https://raw.githubusercontent.com/Foolllll-J/astrbot_plugin_soushuba/master/logo.png"
   },
@@ -270,8 +270,8 @@
       "禁漫"
     ],
     "social_link": "https://github.com/GEMILUXVII",
-    "stars": 79,
-    "updated_at": "2026-01-14T10:38:34Z",
+    "stars": 80,
+    "updated_at": "2026-01-14T14:43:28Z",
     "version": "v2.6.5",
     "logo": "https://raw.githubusercontent.com/GEMILUXVII/astrbot_plugin_jm_cosmos/main/logo.png"
   }
