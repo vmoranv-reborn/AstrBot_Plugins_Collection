@@ -274,5 +274,147 @@
     "updated_at": "2026-01-14T14:43:28Z",
     "version": "v2.6.5",
     "logo": "https://raw.githubusercontent.com/GEMILUXVII/astrbot_plugin_jm_cosmos/main/logo.png"
+  },
+  "astrbot_plugin_hentaigem": {
+    "name": "astrbot_plugin_hentaigem",
+    "display_name": "hentaigem大调查",
+    "desc": "hentaigem大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_hentaigem",
+    "tags": [
+      "hentaigem"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T14:09:34Z",
+    "version": "1.0.0"
+  },
+  "astrbot_plugin_xxxgfporn": {
+    "name": "astrbot_plugin_xxxgfporn",
+    "display_name": "xxxgfporn大调查",
+    "desc": "xxxgfporn大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xxxgfporn",
+    "tags": [
+      "xxxgfporn"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T14:09:25Z",
+    "version": "v1.0.0"
+  },
+  "astrbot_plugin_xview": {
+    "name": "astrbot_plugin_xview",
+    "display_name": "xview直播大调查",
+    "desc": "xview大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xview",
+    "tags": [
+      "xview"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T14:09:22Z",
+    "version": "v1.0.0"
+  },
+  "astrbot_plugin_mmdhub": {
+    "name": "astrbot_plugin_mmdhub",
+    "display_name": "mmdhub大调查",
+    "desc": "mmdhub大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_mmdhub",
+    "tags": [
+      "mmdhub"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T11:11:58Z",
+    "version": "1.0.0"
+  },
+  "astrbot_plugin_porntags": {
+    "name": "astrbot_plugin_porntags",
+    "display_name": "PornTags 术语查询",
+    "desc": "查询成人内容术语标签的中英文含义和解释",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_porntags",
+    "tags": [
+      "porntags"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T11:15:20Z",
+    "version": "v1.0.0"
+  },
+  "astrbot_plugin_smutba": {
+    "name": "astrbot_plugin_smutba",
+    "display_name": "smutba大调查",
+    "desc": "smutba大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_smutba",
+    "tags": [
+      "smutba"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T08:29:40Z",
+    "version": "1.0.0"
+  },
+  "astrbot_plugin_rule34video": {
+    "name": "astrbot_plugin_rule34video",
+    "display_name": "rule34video大调查",
+    "desc": "rule34video大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_rule34video",
+    "tags": [
+      "rule34video"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T03:52:17Z",
+    "version": "1.1.0"
+  },
+  "astrbot_plugin_3dporndude": {
+    "name": "astrbot_plugin_3dporndude",
+    "display_name": "3DPornDude大调查",
+    "desc": "3DPornDude大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_3dporndude",
+    "tags": [
+      "3dporndude"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T03:15:35Z",
+    "version": "1.0.1"
+  },
+  "astrbot_plugin_hanime": {
+    "name": "astrbot_plugin_hanime",
+    "display_name": "hanime大调查",
+    "desc": "hanime大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_hanime",
+    "tags": [
+      "hanime"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-16T15:06:19Z",
+    "version": "1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_hanime/master/logo.png"
+  },
+  "astrbot_plugin_3dporn": {
+    "name": "astrbot_plugin_3dporn",
+    "display_name": "3D-Porn 视频查询",
+    "desc": "3dporn大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_3dporn",
+    "tags": [
+      "3dporn"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-15T14:56:41Z",
+    "version": "1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_3dporn/master/logo.png"
   }
 }
