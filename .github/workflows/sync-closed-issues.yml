@@ -103,15 +103,17 @@ jobs:
           # 如果没有找到带plugin-publish标签的Issues，则使用所有已关闭的Issues
           if [ "$closed_issues" = "{}" ]; then
             echo "未找到带plugin-publish标签的Issues，使用所有已关闭的Issues..."
-            closed_issues_details="$all_closed_issues"
+            # 过滤：只保留 state_reason 为 "completed" 的issues
+            closed_issues_details=$(echo "$all_closed_issues" | jq '[.[] | select(.state_reason == "completed")]')
           else
-            # 获取已关闭Issues的详细信息（包含插件信息）
+            # 获取已关闭Issues的详细信息（包含插件信息），并过滤 state_reason
             closed_issues_details=$(curl -s -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
               -H "Accept: application/vnd.github.v3+json" \
-              "https://api.github.com/repos/${{ github.repository }}/issues?state=closed&labels=plugin-publish&per_page=100")
+              "https://api.github.com/repos/${{ github.repository }}/issues?state=closed&labels=plugin-publish&per_page=100" | \
+              jq '[.[] | select(.state_reason == "completed")]')
           fi
           
-          echo "最终使用的Issues数量: $(echo "$closed_issues_details" | jq 'length')"
+          echo "过滤后（只保留state_reason=completed）的Issues数量: $(echo "$closed_issues_details" | jq 'length')"
           echo "$closed_issues_details" > closed_issues_details.json
           
       - name: Process plugins from closed issues
