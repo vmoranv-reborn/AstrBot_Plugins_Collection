@@ -72,6 +72,40 @@
     "updated_at": "2025-12-16T11:05:59Z",
     "version": "v1.0.0"
   },
+  "astrbot_plugin_xfreehd": {
+    "name": "astrbot_plugin_xfreehd",
+    "display_name": "XFreeHD大调查",
+    "desc": "提供XFreeHD网站的视频和相册信息查询功能",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xfreehd",
+    "tags": [
+      "xfreehd",
+      "相册",
+      "cdn"
+    ],
+    "social_link": "https://github.com/vmoranv",
+    "stars": 0,
+    "updated_at": "2025-12-25T14:24:13Z",
+    "version": "1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_xfreehd/master/logo.png"
+  },
+  "astrbot_plugin_spankbang": {
+    "name": "astrbot_plugin_spankbang",
+    "display_name": "SpankBang 搜索插件",
+    "desc": "SpankBang视频搜索插件，支持搜索视频并返回打码封面。",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_spankbang",
+    "tags": [
+      "spankbang",
+      "女优",
+      "频道"
+    ],
+    "social_link": "https://github.com/vmoranv",
+    "stars": 1,
+    "updated_at": "2025-12-27T23:04:34Z",
+    "version": "v1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_spankbang/master/logo.png"
+  },
   "___": {
     "name": "astrbot_plugin_asmr",
     "display_name": "astrbot_plugin_asmr",
@@ -86,6 +120,69 @@
     "updated_at": "2025-11-01T10:18:03Z",
     "version": "v1.0"
   },
+  "astrbot_plugin_beeg": {
+    "name": "astrbot_plugin_beeg",
+    "display_name": "Beeg视频插件",
+    "desc": "Beeg大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_beeg",
+    "tags": [
+      "beeg"
+    ],
+    "social_link": "https://github.com/vmoranv",
+    "stars": 0,
+    "updated_at": "2025-12-26T14:46:55Z",
+    "version": "v1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_beeg/master/logo.png"
+  },
+  "astrbot_plugin_eporner": {
+    "name": "astrbot_plugin_EPorner",
+    "display_name": "EPorner视频查询",
+    "desc": "EPorner视频信息查询插件，支持获取视频信息、搜索视频、查看演员信息等功能",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_EPorner",
+    "tags": [
+      "EPorner",
+      "女优"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2025-12-27T13:46:55Z",
+    "version": "1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_EPorner/master/logo.png"
+  },
+  "astrbot_plugin_xhamster": {
+    "name": "astrbot_plugin_xhamster",
+    "display_name": "XHamster大调查",
+    "desc": "XHamster视频搜索和信息查询插件",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xhamster",
+    "tags": [
+      "xhamster",
+      "女优",
+      "短视频"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2025-12-28T14:53:21Z",
+    "version": "v1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_xhamster/master/logo.png"
+  },
+  "astrbot_plugin_xnxx": {
+    "name": "astrbot_plugin_xnxx",
+    "display_name": "XNXX 视频查询插件",
+    "desc": "XNXX大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xnxx",
+    "tags": [
+      "xnxx"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2025-12-31T14:58:29Z",
+    "version": "v1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_xnxx/master/logo.png"
+  },
   "astrbot_plugin_dailynews_agent": {
     "name": "astrbot_plugin_dailynews_agent",
     "display_name": "dailynews_agent",
@@ -95,7 +192,7 @@
     "tags": [],
     "social_link": "",
     "stars": 1,
-    "updated_at": "2026-01-22T14:58:25Z",
+    "updated_at": "2026-01-22T15:24:21Z",
     "version": "v0.3.4"
   },
   "astrbot_plugin_soushuba": {
@@ -115,6 +212,53 @@
     "version": "v1.1",
     "logo": "https://raw.githubusercontent.com/Foolllll-J/astrbot_plugin_soushuba/master/logo.png"
   },
+  "astrbot_plugin_sexcom": {
+    "name": "astrbot_plugin_sexcom",
+    "display_name": "Sexcom大调查",
+    "desc": "Sex.com图片获取与搜索插件",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_sexcom",
+    "tags": [
+      "sexcom",
+      "gif"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-04T13:17:53Z",
+    "version": "v1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_sexcom/master/logo.png"
+  },
+  "astrbot_plugin_missav": {
+    "name": "astrbot_plugin_missAV",
+    "display_name": "missAV大调查",
+    "desc": "missAV大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_missAV",
+    "tags": [
+      "missAV"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-19T11:04:33Z",
+    "version": "1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_missAV/master/logo.png"
+  },
+  "astrbot_plugin_jiahao": {
+    "name": "astrbot_plugin_jiahao",
+    "display_name": "嘉豪",
+    "desc": "艾路迪克都去导管室",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_jiahao",
+    "tags": [
+      "嘉豪",
+      "搓条",
+      "导管室"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2025-10-22T14:28:26Z",
+    "version": "1.0.2"
+  },
   "jm_cosmos": {
     "name": "astrbot_plugin_jm_cosmos",
     "display_name": "JM-Cosmos",
@@ -130,5 +274,147 @@
     "updated_at": "2026-01-21T09:21:39Z",
     "version": "v2.6.5",
     "logo": "https://raw.githubusercontent.com/GEMILUXVII/astrbot_plugin_jm_cosmos/main/logo.png"
+  },
+  "astrbot_plugin_hentaigem": {
+    "name": "astrbot_plugin_hentaigem",
+    "display_name": "hentaigem大调查",
+    "desc": "hentaigem大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_hentaigem",
+    "tags": [
+      "hentaigem"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T14:09:34Z",
+    "version": "1.0.0"
+  },
+  "astrbot_plugin_xxxgfporn": {
+    "name": "astrbot_plugin_xxxgfporn",
+    "display_name": "xxxgfporn大调查",
+    "desc": "xxxgfporn大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xxxgfporn",
+    "tags": [
+      "xxxgfporn"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T14:09:25Z",
+    "version": "v1.0.0"
+  },
+  "astrbot_plugin_xview": {
+    "name": "astrbot_plugin_xview",
+    "display_name": "xview直播大调查",
+    "desc": "xview大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xview",
+    "tags": [
+      "xview"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T14:09:22Z",
+    "version": "v1.0.0"
+  },
+  "astrbot_plugin_mmdhub": {
+    "name": "astrbot_plugin_mmdhub",
+    "display_name": "mmdhub大调查",
+    "desc": "mmdhub大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_mmdhub",
+    "tags": [
+      "mmdhub"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T11:11:58Z",
+    "version": "1.0.0"
+  },
+  "astrbot_plugin_porntags": {
+    "name": "astrbot_plugin_porntags",
+    "display_name": "PornTags 术语查询",
+    "desc": "查询成人内容术语标签的中英文含义和解释",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_porntags",
+    "tags": [
+      "porntags"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T11:15:20Z",
+    "version": "v1.0.0"
+  },
+  "astrbot_plugin_smutba": {
+    "name": "astrbot_plugin_smutba",
+    "display_name": "smutba大调查",
+    "desc": "smutba大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_smutba",
+    "tags": [
+      "smutba"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T08:29:40Z",
+    "version": "1.0.0"
+  },
+  "astrbot_plugin_rule34video": {
+    "name": "astrbot_plugin_rule34video",
+    "display_name": "rule34video大调查",
+    "desc": "rule34video大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_rule34video",
+    "tags": [
+      "rule34video"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T03:52:17Z",
+    "version": "1.1.0"
+  },
+  "astrbot_plugin_3dporndude": {
+    "name": "astrbot_plugin_3dporndude",
+    "display_name": "3DPornDude大调查",
+    "desc": "3DPornDude大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_3dporndude",
+    "tags": [
+      "3dporndude"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-17T03:15:35Z",
+    "version": "1.0.1"
+  },
+  "astrbot_plugin_hanime": {
+    "name": "astrbot_plugin_hanime",
+    "display_name": "hanime大调查",
+    "desc": "hanime大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_hanime",
+    "tags": [
+      "hanime"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-16T15:06:19Z",
+    "version": "1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_hanime/master/logo.png"
+  },
+  "astrbot_plugin_3dporn": {
+    "name": "astrbot_plugin_3dporn",
+    "display_name": "3D-Porn 视频查询",
+    "desc": "3dporn大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_3dporn",
+    "tags": [
+      "3dporn"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-15T14:56:41Z",
+    "version": "1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_3dporn/master/logo.png"
   }
 }
