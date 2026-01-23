@@ -416,5 +416,34 @@
     "updated_at": "2026-01-15T14:56:41Z",
     "version": "1.0.0",
     "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_3dporn/master/logo.png"
+  },
+  "astrbot_plugin_dmm_hot": {
+    "name": "astrbot_plugin_dmm_hot",
+    "display_name": "DMM热榜",
+    "desc": "DMM热榜",
+    "author": "Kazuki",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_dmm_hot",
+    "tags": [
+      "dmm"
+    ],
+    "social_link": "https://github.com/zhoufan47",
+    "stars": 0,
+    "updated_at": "2026-01-22T14:26:10Z",
+    "version": "v1.0.0"
+  },
+  "astrbot_plugin_danbooru": {
+    "name": "astrbot_plugin_danbooru",
+    "display_name": "Danbooru",
+    "desc": "danbooru大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_danbooru",
+    "tags": [
+      "danbooru"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-20T02:48:22Z",
+    "version": "v1.0.4",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_danbooru/master/logo.png"
   }
 }
