@@ -318,5 +318,27 @@
       "3dporn"
     ],
     "social_link": "https://github.com/vmoranv/"
+  },
+  "astrbot_plugin_dmm_hot": {
+    "name": "astrbot_plugin_dmm_hot",
+    "display_name": "DMM热榜",
+    "desc": "DMM热榜",
+    "author": "Kazuki",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_dmm_hot",
+    "tags": [
+      "dmm"
+    ],
+    "social_link": "https://github.com/zhoufan47"
+  },
+  "astrbot_plugin_danbooru": {
+    "name": "astrbot_plugin_danbooru",
+    "display_name": "Danbooru",
+    "desc": "danbooru大调查",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_danbooru",
+    "tags": [
+      "danbooru"
+    ],
+    "social_link": "https://github.com/vmoranv/"
   }
 }
