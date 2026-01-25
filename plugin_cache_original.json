@@ -10,8 +10,9 @@
     ],
     "social_link": "https://github.com/vmoranv-reborn",
     "stars": 0,
-    "updated_at": "",
-    "version": "1.0.0"
+    "updated_at": "2025-12-16T02:38:33Z",
+    "version": "v1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pornhub/master/logo.png"
   },
   "astrbot_plugin_pixiv_reborn": {
     "name": "astrbot_plugin_pixiv_reborn",
@@ -23,9 +24,10 @@
       "pixiv"
     ],
     "social_link": "https://github.com/vmoranv-reborn",
-    "stars": 0,
-    "updated_at": "",
-    "version": "1.0.0"
+    "stars": 5,
+    "updated_at": "2026-01-23T02:47:20Z",
+    "version": "1.5.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn/main/logo.png"
   },
   "astrbot_plugin_search_that": {
     "name": "astrbot_plugin_search_that",
@@ -254,7 +256,7 @@
     ],
     "social_link": "https://github.com/vmoranv/",
     "stars": 0,
-    "updated_at": "2025-10-22T14:28:26Z",
+    "updated_at": "2026-01-25T08:02:02Z",
     "version": "1.0.2"
   },
   "jm_cosmos": {
