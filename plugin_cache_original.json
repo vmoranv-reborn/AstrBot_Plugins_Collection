@@ -445,5 +445,20 @@
     "updated_at": "2026-01-20T02:48:22Z",
     "version": "v1.0.4",
     "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_danbooru/master/logo.png"
+  },
+  "astrbot_plugin_dailyporn": {
+    "name": "astrbot_plugin_dailyporn",
+    "display_name": "DailyPorn 日报推荐",
+    "desc": "每日簧片热榜",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_dailyporn",
+    "tags": [
+      "日报 ",
+      "热榜"
+    ],
+    "social_link": "https://github.com/vmoranv/",
+    "stars": 0,
+    "updated_at": "2026-01-30T03:05:33Z",
+    "version": "v0.1.10"
   }
 }
