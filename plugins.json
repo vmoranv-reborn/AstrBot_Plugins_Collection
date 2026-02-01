@@ -340,5 +340,17 @@
       "danbooru"
     ],
     "social_link": "https://github.com/vmoranv/"
+  },
+  "astrbot_plugin_dailyporn": {
+    "name": "astrbot_plugin_dailyporn",
+    "display_name": "DailyPorn 日报推荐",
+    "desc": "每日簧片热榜",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_dailyporn",
+    "tags": [
+      "日报 ",
+      "热榜"
+    ],
+    "social_link": "https://github.com/vmoranv/"
   }
 }
