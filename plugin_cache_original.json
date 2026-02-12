@@ -460,5 +460,21 @@
     "stars": 0,
     "updated_at": "2026-02-06T12:08:32Z",
     "version": "v0.1.12"
+  },
+  "nhentai_______": {
+    "name": "astrbot_plugin_daily_nhentai",
+    "display_name": "nhentai 本子质量分析",
+    "desc": "获取 NHentai 每日流行榜单，通过本地 YOLO 模型筛选高质量本子",
+    "author": "s11IM",
+    "repo": "https://github.com/s11IM/astrbot_plugin_daily_nhentai",
+    "tags": [
+      "本子",
+      "NSFW率检测",
+      "nhentai"
+    ],
+    "social_link": "",
+    "stars": 0,
+    "updated_at": "2026-02-11T11:19:04Z",
+    "version": "1.5.0"
   }
 }
