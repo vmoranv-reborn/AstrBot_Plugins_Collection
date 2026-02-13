@@ -476,5 +476,19 @@
     "stars": 0,
     "updated_at": "2026-02-11T11:19:04Z",
     "version": "1.5.0"
+  },
+  "x_porn_____": {
+    "name": "astrbot_plugin_xporn",
+    "display_name": "X-Porn 视频排行",
+    "desc": "Twitter 视频排行查询插件，支持获取排行榜、搜索、热门视频等功能",
+    "author": "https://github.com/vmoranv/astrbot_plugin_xporn",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_xporn",
+    "tags": [
+      "X"
+    ],
+    "social_link": "https://github.com/vmoranv",
+    "stars": 0,
+    "updated_at": "2026-02-12T15:39:18Z",
+    "version": "v1.0.0"
   }
 }
