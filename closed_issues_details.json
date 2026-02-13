@@ -1,5 +1,99 @@
 [
   {
+    "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/36",
+    "repository_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection",
+    "labels_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/36/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/36/comments",
+    "events_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/36/events",
+    "html_url": "https://github.com/vmoranv-reborn/AstrBot_Plugins_Collection/issues/36",
+    "id": 3932537993,
+    "node_id": "I_kwDOQpKTjc7qZcSJ",
+    "number": 36,
+    "title": "[Plugin] X-Porn 视频排行",
+    "user": {
+      "login": "vmoranv",
+      "id": 98155299,
+      "node_id": "U_kgDOBdm7Iw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98155299?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vmoranv",
+      "html_url": "https://github.com/vmoranv",
+      "followers_url": "https://api.github.com/users/vmoranv/followers",
+      "following_url": "https://api.github.com/users/vmoranv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vmoranv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vmoranv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vmoranv/subscriptions",
+      "organizations_url": "https://api.github.com/users/vmoranv/orgs",
+      "repos_url": "https://api.github.com/users/vmoranv/repos",
+      "events_url": "https://api.github.com/users/vmoranv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vmoranv/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2026-02-12T15:42:32Z",
+    "updated_at": "2026-02-12T15:42:36Z",
+    "closed_at": "2026-02-12T15:42:36Z",
+    "author_association": "COLLABORATOR",
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "### 插件信息\n\n```json\n{\n  \"name\": \"astrbot_plugin_xporn\",\n  \"display_name\": \"X-Porn 视频排行\",\n  \"desc\": \"Twitter 视频排行查询插件，支持获取排行榜、搜索、热门视频等功能\",\n  \"author\": \"https://github.com/vmoranv/astrbot_plugin_xporn\",\n  \"repo\": \"https://github.com/vmoranv/astrbot_plugin_xporn\",\n  \"tags\": [\n    \"X\"\n  ],\n  \"social_link\": \"https://github.com/vmoranv\"\n}\n```\n\n### 插件检查清单\n\n- [x] 我的插件经过完整的测试\n- [x] 我的插件不包含恶意代码\n- [x] 我已阅读并同意遵守该项目的 [行为准则](https://docs.github.com/zh/site-policy/github-terms/github-community-code-of-conduct)。",
+    "closed_by": {
+      "login": "vmoranv",
+      "id": 98155299,
+      "node_id": "U_kgDOBdm7Iw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98155299?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vmoranv",
+      "html_url": "https://github.com/vmoranv",
+      "followers_url": "https://api.github.com/users/vmoranv/followers",
+      "following_url": "https://api.github.com/users/vmoranv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vmoranv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vmoranv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vmoranv/subscriptions",
+      "organizations_url": "https://api.github.com/users/vmoranv/orgs",
+      "repos_url": "https://api.github.com/users/vmoranv/repos",
+      "events_url": "https://api.github.com/users/vmoranv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vmoranv/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/36/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/36/timeline",
+    "performed_via_github_app": null,
+    "state_reason": "completed",
+    "pinned_comment": null
+  },
+  {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/35",
     "repository_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection",
     "labels_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/35/labels{/name}",
@@ -90,7 +184,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/35/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/34",
@@ -183,7 +278,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/34/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/33",
@@ -276,7 +372,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/33/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/32",
@@ -369,7 +466,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/32/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/30",
@@ -462,7 +560,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/30/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/28",
@@ -555,7 +654,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/28/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/27",
@@ -648,7 +748,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/27/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/26",
@@ -741,7 +842,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/26/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/25",
@@ -834,7 +936,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/25/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/24",
@@ -927,7 +1030,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/24/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/23",
@@ -1020,7 +1124,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/23/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/22",
@@ -1113,7 +1218,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/22/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/21",
@@ -1206,7 +1312,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/21/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/20",
@@ -1299,7 +1406,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/20/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/19",
@@ -1392,7 +1500,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/19/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/18",
@@ -1485,7 +1594,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/18/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/17",
@@ -1578,7 +1688,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/17/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/16",
@@ -1671,7 +1782,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/16/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/15",
@@ -1764,7 +1876,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/15/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/14",
@@ -1857,7 +1970,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/14/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/13",
@@ -1950,7 +2064,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/13/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/12",
@@ -2043,7 +2158,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/12/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/11",
@@ -2136,7 +2252,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/11/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/10",
@@ -2229,7 +2346,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/10/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/9",
@@ -2322,7 +2440,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/9/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/8",
@@ -2415,7 +2534,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/8/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/7",
@@ -2508,7 +2628,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/7/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/6",
@@ -2601,7 +2722,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/6/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/5",
@@ -2694,7 +2816,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/5/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/4",
@@ -2787,7 +2910,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/4/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/3",
@@ -2880,7 +3004,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/3/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/2",
@@ -2973,7 +3098,8 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/2/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/1",
@@ -3066,6 +3192,7 @@
     },
     "timeline_url": "https://api.github.com/repos/vmoranv-reborn/AstrBot_Plugins_Collection/issues/1/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   }
 ]
