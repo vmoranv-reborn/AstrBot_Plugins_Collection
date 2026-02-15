@@ -25,8 +25,8 @@
     ],
     "social_link": "https://github.com/vmoranv-reborn",
     "stars": 8,
-    "updated_at": "2026-02-07T07:14:19Z",
-    "version": "1.6.0",
+    "updated_at": "2026-02-15T14:22:07Z",
+    "version": "1.6.1",
     "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn/main/logo.png"
   },
   "astrbot_plugin_search_that": {
@@ -239,7 +239,7 @@
     ],
     "social_link": "https://github.com/vmoranv/",
     "stars": 1,
-    "updated_at": "2026-02-11T10:11:11Z",
+    "updated_at": "2026-02-15T14:46:32Z",
     "version": "v1.1.0",
     "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_missAV/master/logo.png"
   },
@@ -488,7 +488,7 @@
     ],
     "social_link": "https://github.com/vmoranv",
     "stars": 0,
-    "updated_at": "2026-02-12T15:39:18Z",
+    "updated_at": "2026-02-15T14:48:51Z",
     "version": "v1.0.0"
   }
 }
