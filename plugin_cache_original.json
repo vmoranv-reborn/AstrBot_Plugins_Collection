@@ -25,8 +25,8 @@
     ],
     "social_link": "https://github.com/vmoranv-reborn",
     "stars": 8,
-    "updated_at": "2026-02-17T03:59:46Z",
-    "version": "1.7.0",
+    "updated_at": "2026-02-17T05:16:35Z",
+    "version": "1.7.1",
     "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn/main/logo.png"
   },
   "astrbot_plugin_search_that": {
@@ -490,5 +490,19 @@
     "stars": 0,
     "updated_at": "2026-02-15T14:48:51Z",
     "version": "v1.0.0"
+  },
+  "____________": {
+    "name": "astrbot_plugin_remote_dg_lab",
+    "display_name": "一个让群友控制郊狼的插件",
+    "desc": "来和群友一起愉快的玩郊狼吧~",
+    "author": "123nhh",
+    "repo": "https://github.com/123nhh/astrbot_plugin_remote_dg_lab",
+    "tags": [
+      "郊狼"
+    ],
+    "social_link": "",
+    "stars": 0,
+    "updated_at": "2026-02-16T02:40:54Z",
+    "version": "v1.0.1"
   }
 }
