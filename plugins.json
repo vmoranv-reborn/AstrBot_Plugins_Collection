@@ -376,5 +376,16 @@
       "X"
     ],
     "social_link": "https://github.com/vmoranv"
+  },
+  "____________": {
+    "name": "astrbot_plugin_remote_dg_lab",
+    "display_name": "一个让群友控制郊狼的插件",
+    "desc": "来和群友一起愉快的玩郊狼吧~",
+    "author": "123nhh",
+    "repo": "https://github.com/123nhh/astrbot_plugin_remote_dg_lab",
+    "tags": [
+      "郊狼"
+    ],
+    "social_link": ""
   }
 }
