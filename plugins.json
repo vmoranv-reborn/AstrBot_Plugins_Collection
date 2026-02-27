@@ -387,5 +387,17 @@
       "郊狼"
     ],
     "social_link": ""
+  },
+  "astrbot_plugin_iwara": {
+    "name": "astrbot_plugin_iwara",
+    "display_name": "Iwara",
+    "desc": "Iwara 视频/图片搜索、详情查询与直链解析（支持代理与封面打码）",
+    "author": "https://github.com/vmoranv/astrbot_plugin_iwara",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_iwara",
+    "tags": [
+      "iwara",
+      "mmd"
+    ],
+    "social_link": "https://github.com/vmoranv/"
   }
 }
