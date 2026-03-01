@@ -68,8 +68,8 @@
       "pica"
     ],
     "social_link": "https://github.com/vmoranv-reborn",
-    "stars": 0,
-    "updated_at": "2025-12-16T11:05:59Z",
+    "stars": 1,
+    "updated_at": "2026-03-01T15:15:06Z",
     "version": "v1.0.0"
   },
   "astrbot_plugin_xfreehd": {
@@ -502,8 +502,8 @@
     ],
     "social_link": "",
     "stars": 3,
-    "updated_at": "2026-02-26T15:12:24Z",
-    "version": "v1.5.0"
+    "updated_at": "2026-03-01T15:02:18Z",
+    "version": "v1.6.0"
   },
   "astrbot_plugin_iwara": {
     "name": "astrbot_plugin_iwara",
