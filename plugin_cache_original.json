@@ -24,8 +24,8 @@
       "pixiv"
     ],
     "social_link": "https://github.com/vmoranv-reborn",
-    "stars": 19,
-    "updated_at": "2026-03-18T03:05:16Z",
+    "stars": 20,
+    "updated_at": "2026-03-18T08:42:42Z",
     "version": "1.7.2",
     "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn/main/logo.png"
   },
@@ -191,8 +191,8 @@
     "repo": "https://github.com/xunxiing/astrbot_dailynews_agent",
     "tags": [],
     "social_link": "",
-    "stars": 3,
-    "updated_at": "2026-03-11T09:32:30Z",
+    "stars": 4,
+    "updated_at": "2026-03-18T09:25:36Z",
     "version": "v1.0.0"
   },
   "astrbot_plugin_soushuba": {
