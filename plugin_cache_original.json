@@ -85,8 +85,9 @@
     ],
     "social_link": "https://github.com/vmoranv",
     "stars": 0,
-    "updated_at": "",
-    "version": "1.0.0"
+    "updated_at": "2025-12-25T14:24:13Z",
+    "version": "1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_xfreehd/master/logo.png"
   },
   "astrbot_plugin_spankbang": {
     "name": "astrbot_plugin_spankbang",
@@ -190,9 +191,9 @@
     "repo": "https://github.com/xunxiing/astrbot_dailynews_agent",
     "tags": [],
     "social_link": "",
-    "stars": 0,
-    "updated_at": "",
-    "version": "1.0.0"
+    "stars": 5,
+    "updated_at": "2026-03-25T23:44:55Z",
+    "version": "v1.1.1"
   },
   "astrbot_plugin_soushuba": {
     "name": "astrbot_plugin_soushuba",
@@ -269,8 +270,8 @@
       "禁漫"
     ],
     "social_link": "https://github.com/GEMILUXVII",
-    "stars": 123,
-    "updated_at": "2026-03-26T15:34:55Z",
+    "stars": 124,
+    "updated_at": "2026-03-26T18:47:46Z",
     "version": "v2.6.6",
     "logo": "https://raw.githubusercontent.com/GEMILUXVII/astrbot_plugin_jm_cosmos/main/logo.png"
   },
