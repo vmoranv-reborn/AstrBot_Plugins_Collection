@@ -399,5 +399,18 @@
       "mmd"
     ],
     "social_link": "https://github.com/vmoranv/"
+  },
+  "tangxinvlog_s_d": {
+    "name": "astrbot_plugin_tx-s-d",
+    "display_name": "TangXinVlog-S-D",
+    "desc": "TangXinVlog 搜索与下载工具 — AstrBot 插件 + 独立库",
+    "author": "EterUltimate",
+    "repo": "https://github.com/EterUltimate/tx-s-d.git",
+    "tags": [
+      "糖心",
+      "搜索",
+      "下载"
+    ],
+    "social_link": "https://github.com/EterUltimate"
   }
 }
