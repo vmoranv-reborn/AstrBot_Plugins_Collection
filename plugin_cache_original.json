@@ -429,8 +429,8 @@
     ],
     "social_link": "https://github.com/zhoufan47",
     "stars": 1,
-    "updated_at": "2026-02-25T02:13:36Z",
-    "version": "v1.0.0"
+    "updated_at": "2026-06-11T08:29:55Z",
+    "version": "v1.0.1"
   },
   "astrbot_plugin_danbooru": {
     "name": "astrbot_plugin_danbooru",
