@@ -11,8 +11,7 @@
     "social_link": "https://github.com/vmoranv-reborn",
     "stars": 2,
     "updated_at": "2026-04-03T08:52:29Z",
-    "version": "v1.0.0",
-    "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pornhub/master/logo.png"
+    "version": "v1.0.0"
   },
   "astrbot_plugin_pixiv_reborn": {
     "name": "astrbot_plugin_pixiv_reborn",
@@ -271,9 +270,9 @@
       "禁漫"
     ],
     "social_link": "https://github.com/GEMILUXVII",
-    "stars": 194,
-    "updated_at": "2026-06-18T10:31:15Z",
-    "version": "v2.6.8",
+    "stars": 195,
+    "updated_at": "2026-06-18T15:33:09Z",
+    "version": "v2.7.6",
     "logo": "https://raw.githubusercontent.com/GEMILUXVII/astrbot_plugin_jm_cosmos/main/logo.png"
   },
   "astrbot_plugin_hentaigem": {
