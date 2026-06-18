@@ -11,7 +11,8 @@
     "social_link": "https://github.com/vmoranv-reborn",
     "stars": 2,
     "updated_at": "2026-04-03T08:52:29Z",
-    "version": "v1.0.0"
+    "version": "v1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pornhub/master/logo.png"
   },
   "astrbot_plugin_pixiv_reborn": {
     "name": "astrbot_plugin_pixiv_reborn",
