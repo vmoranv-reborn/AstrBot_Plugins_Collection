@@ -26,7 +26,7 @@
     "social_link": "https://github.com/vmoranv-reborn",
     "stars": 49,
     "updated_at": "2026-07-08T00:25:34Z",
-    "version": "1.0.0",
+    "version": "1.7.4",
     "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn/main/logo.png"
   },
   "astrbot_plugin_search_that": {
@@ -444,7 +444,8 @@
     "social_link": "https://github.com/vmoranv/",
     "stars": 0,
     "updated_at": "2026-02-03T14:32:18Z",
-    "version": "v1.0.6"
+    "version": "v1.0.6",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_danbooru/master/logo.png"
   },
   "astrbot_plugin_dailyporn": {
     "name": "astrbot_plugin_dailyporn",
