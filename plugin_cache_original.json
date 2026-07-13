@@ -86,8 +86,7 @@
     "social_link": "https://github.com/vmoranv",
     "stars": 0,
     "updated_at": "2025-12-25T14:24:13Z",
-    "version": "1.0.0",
-    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_xfreehd/master/logo.png"
+    "version": "1.0.0"
   },
   "astrbot_plugin_spankbang": {
     "name": "astrbot_plugin_spankbang",
@@ -273,7 +272,7 @@
     "social_link": "https://github.com/GEMILUXVII",
     "stars": 223,
     "updated_at": "2026-07-12T10:10:34Z",
-    "version": "1.0.0",
+    "version": "v2.7.6",
     "logo": "https://raw.githubusercontent.com/GEMILUXVII/astrbot_plugin_jm_cosmos/main/logo.png"
   },
   "astrbot_plugin_hentaigem": {
