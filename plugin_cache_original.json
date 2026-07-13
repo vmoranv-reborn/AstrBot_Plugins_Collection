@@ -86,7 +86,8 @@
     "social_link": "https://github.com/vmoranv",
     "stars": 0,
     "updated_at": "2025-12-25T14:24:13Z",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "logo": "https://raw.githubusercontent.com/vmoranv/astrbot_plugin_xfreehd/master/logo.png"
   },
   "astrbot_plugin_spankbang": {
     "name": "astrbot_plugin_spankbang",
