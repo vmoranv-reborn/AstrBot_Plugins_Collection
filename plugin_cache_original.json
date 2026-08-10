@@ -24,8 +24,8 @@
       "pixiv"
     ],
     "social_link": "https://github.com/vmoranv-reborn",
-    "stars": 55,
-    "updated_at": "2026-08-10T06:57:40Z",
+    "stars": 56,
+    "updated_at": "2026-08-10T08:44:25Z",
     "version": "1.7.4",
     "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn/main/logo.png"
   },
@@ -517,8 +517,8 @@
       "mmd"
     ],
     "social_link": "https://github.com/vmoranv/",
-    "stars": 2,
-    "updated_at": "2026-06-27T02:45:36Z",
+    "stars": 3,
+    "updated_at": "2026-08-10T08:43:34Z",
     "version": "v1.2.0"
   }
 }
