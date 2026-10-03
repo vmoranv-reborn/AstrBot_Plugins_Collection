@@ -26,7 +26,8 @@
     "social_link": "https://github.com/vmoranv-reborn",
     "stars": 63,
     "updated_at": "2026-09-27T11:44:58Z",
-    "version": "1.7.5"
+    "version": "1.7.5",
+    "logo": "https://raw.githubusercontent.com/vmoranv-reborn/astrbot_plugin_pixiv_reborn/main/logo.png"
   },
   "astrbot_plugin_search_that": {
     "name": "astrbot_plugin_search_that",
