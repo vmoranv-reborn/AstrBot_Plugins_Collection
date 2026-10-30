@@ -271,8 +271,8 @@
       "禁漫"
     ],
     "social_link": "https://github.com/GEMILUXVII",
-    "stars": 294,
-    "updated_at": "2026-10-27T09:18:45Z",
+    "stars": 295,
+    "updated_at": "2026-10-30T08:17:40Z",
     "version": "v2.7.6",
     "logo": "https://raw.githubusercontent.com/GEMILUXVII/astrbot_plugin_jm_cosmos/main/logo.png"
   },
@@ -520,5 +520,19 @@
     "stars": 3,
     "updated_at": "2026-08-27T06:14:07Z",
     "version": "v1.2.1"
+  },
+  "__": {
+    "name": "astrbot_plugin_bitchfinder",
+    "display_name": "找鸡",
+    "desc": "找鸡",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_bitchfinder",
+    "tags": [
+      "找鸡"
+    ],
+    "social_link": "https://github.com/vmoranv",
+    "stars": 11,
+    "updated_at": "2026-10-30T07:26:27Z",
+    "version": "v1.0.0"
   }
 }
