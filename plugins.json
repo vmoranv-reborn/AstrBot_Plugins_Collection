@@ -412,5 +412,16 @@
       "下载"
     ],
     "social_link": "https://github.com/EterUltimate"
+  },
+  "__": {
+    "name": "astrbot_plugin_bitchfinder",
+    "display_name": "找鸡",
+    "desc": "找鸡",
+    "author": "vmoranv",
+    "repo": "https://github.com/vmoranv/astrbot_plugin_bitchfinder",
+    "tags": [
+      "找鸡"
+    ],
+    "social_link": "https://github.com/vmoranv"
   }
 }
