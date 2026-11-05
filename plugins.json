@@ -423,5 +423,20 @@
       "找鸡"
     ],
     "social_link": "https://github.com/vmoranv"
+  },
+  "_____": {
+    "name": "astrbot_plugin_comic_parser",
+    "display_name": "漫画下载器",
+    "desc": "多渠道漫画下载插件：按 ID 下载整本漫画，统一打包发送，支持密码加密",
+    "author": "XTsat",
+    "repo": "https://github.com/XTsat/astrbot_plugin_comic_parser",
+    "tags": [
+      "禁漫天堂",
+      "解析器",
+      "下载器",
+      "哔咔",
+      "漫画"
+    ],
+    "social_link": ""
   }
 }
