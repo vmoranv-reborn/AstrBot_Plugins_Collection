@@ -271,8 +271,8 @@
       "禁漫"
     ],
     "social_link": "https://github.com/GEMILUXVII",
-    "stars": 305,
-    "updated_at": "2026-11-04T10:06:42Z",
+    "stars": 306,
+    "updated_at": "2026-11-05T10:07:16Z",
     "version": "v2.7.6",
     "logo": "https://raw.githubusercontent.com/GEMILUXVII/astrbot_plugin_jm_cosmos/main/logo.png"
   },
@@ -534,5 +534,24 @@
     "stars": 18,
     "updated_at": "2026-11-03T12:02:27Z",
     "version": "v1.0.0"
+  },
+  "_____": {
+    "name": "astrbot_plugin_comic_parser",
+    "display_name": "漫画下载器",
+    "desc": "多渠道漫画下载插件：按 ID 下载整本漫画，统一打包发送，支持密码加密",
+    "author": "XTsat",
+    "repo": "https://github.com/XTsat/astrbot_plugin_comic_parser",
+    "tags": [
+      "禁漫天堂",
+      "解析器",
+      "下载器",
+      "哔咔",
+      "漫画"
+    ],
+    "social_link": "",
+    "stars": 1,
+    "updated_at": "2026-11-05T16:18:25Z",
+    "version": "v0.2.3",
+    "logo": "https://raw.githubusercontent.com/XTsat/astrbot_plugin_comic_parser/main/logo.png"
   }
 }
