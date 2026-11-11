@@ -42,6 +42,8 @@
     "closed_at": "2026-11-04T23:11:28Z",
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -136,6 +138,8 @@
     "closed_at": "2026-10-30T05:35:43Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -230,6 +234,8 @@
     "closed_at": "2026-05-17T14:53:24Z",
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -324,6 +330,8 @@
     "closed_at": "2026-02-26T15:45:39Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -418,6 +426,8 @@
     "closed_at": "2026-02-16T08:15:57Z",
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -512,6 +522,8 @@
     "closed_at": "2026-02-12T15:42:36Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -606,6 +618,8 @@
     "closed_at": "2026-02-11T11:43:09Z",
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -700,6 +714,8 @@
     "closed_at": "2026-02-04T04:21:15Z",
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -794,6 +810,8 @@
     "closed_at": "2026-01-31T11:10:59Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -888,6 +906,8 @@
     "closed_at": "2026-01-23T02:36:07Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -982,6 +1002,8 @@
     "closed_at": "2026-01-19T13:46:23Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1076,6 +1098,8 @@
     "closed_at": "2026-01-18T03:55:30Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1170,6 +1194,8 @@
     "closed_at": "2026-01-17T14:11:58Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1264,6 +1290,8 @@
     "closed_at": "2026-01-17T14:11:10Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1358,6 +1386,8 @@
     "closed_at": "2026-01-17T11:18:07Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1452,6 +1482,8 @@
     "closed_at": "2026-01-17T11:18:32Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1546,6 +1578,8 @@
     "closed_at": "2026-01-17T11:07:23Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1640,6 +1674,8 @@
     "closed_at": "2026-01-17T03:54:12Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1734,6 +1770,8 @@
     "closed_at": "2026-01-17T03:17:12Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1828,6 +1866,8 @@
     "closed_at": "2026-01-16T15:08:33Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1922,6 +1962,8 @@
     "closed_at": "2026-01-16T06:28:39Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2016,6 +2058,8 @@
     "closed_at": "2026-01-11T10:29:16Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2110,6 +2154,8 @@
     "closed_at": "2026-01-11T10:29:32Z",
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2204,6 +2250,8 @@
     "closed_at": "2026-01-06T02:04:06Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2298,6 +2346,8 @@
     "closed_at": "2026-01-04T13:18:56Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2392,6 +2442,8 @@
     "closed_at": "2025-12-31T15:00:22Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2486,6 +2538,8 @@
     "closed_at": "2026-01-01T02:34:43Z",
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2580,6 +2634,8 @@
     "closed_at": "2026-01-01T05:56:42Z",
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2674,6 +2730,8 @@
     "closed_at": "2025-12-28T14:54:59Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2768,6 +2826,8 @@
     "closed_at": "2025-12-27T13:49:34Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2862,6 +2922,8 @@
     "closed_at": "2025-12-26T14:52:04Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2956,6 +3018,8 @@
     "closed_at": "2025-12-25T14:27:47Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3050,6 +3114,8 @@
     "closed_at": "2025-12-25T13:50:23Z",
     "assignee": null,
     "author_association": "COLLABORATOR",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3144,6 +3210,8 @@
     "closed_at": "2025-12-25T13:50:30Z",
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3238,6 +3306,8 @@
     "closed_at": "2025-12-16T12:58:35Z",
     "assignee": null,
     "author_association": "OWNER",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3332,6 +3402,8 @@
     "closed_at": "2025-12-16T04:03:30Z",
     "assignee": null,
     "author_association": "OWNER",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3426,6 +3498,8 @@
     "closed_at": "2025-12-16T03:53:30Z",
     "assignee": null,
     "author_association": "OWNER",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3520,6 +3594,8 @@
     "closed_at": "2025-12-16T02:57:45Z",
     "assignee": null,
     "author_association": "OWNER",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3614,6 +3690,8 @@
     "closed_at": "2025-12-15T14:58:39Z",
     "assignee": null,
     "author_association": "OWNER",
+    "issue_field_values": [],
+    "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
