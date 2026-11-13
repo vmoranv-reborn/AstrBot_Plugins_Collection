@@ -208,8 +208,8 @@
       "小说"
     ],
     "social_link": "",
-    "stars": 9,
-    "updated_at": "2026-10-30T00:51:47Z",
+    "stars": 10,
+    "updated_at": "2026-11-13T17:53:04Z",
     "version": "v1.4.7",
     "logo": "https://raw.githubusercontent.com/Foolllll-J/astrbot_plugin_soushuba/master/logo.png"
   },
@@ -551,7 +551,7 @@
     "social_link": "",
     "stars": 1,
     "updated_at": "2026-11-11T08:25:28Z",
-    "version": "v0.6.0",
+    "version": "v0.7.1",
     "logo": "https://raw.githubusercontent.com/XTsat/astrbot_plugin_comic_parser/main/logo.png"
   }
 }
