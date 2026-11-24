@@ -44,6 +44,7 @@
     "author_association": "NONE",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -140,6 +141,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -236,6 +238,7 @@
     "author_association": "NONE",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -332,6 +335,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -428,6 +432,7 @@
     "author_association": "NONE",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -524,6 +529,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -620,6 +626,7 @@
     "author_association": "NONE",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -716,6 +723,7 @@
     "author_association": "NONE",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -812,6 +820,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -908,6 +917,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1004,6 +1014,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1100,6 +1111,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1196,6 +1208,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1292,6 +1305,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1388,6 +1402,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1484,6 +1499,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1580,6 +1596,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1676,6 +1693,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1772,6 +1790,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1868,6 +1887,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -1964,6 +1984,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2060,6 +2081,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2156,6 +2178,7 @@
     "author_association": "NONE",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2252,6 +2275,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2348,6 +2372,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2444,6 +2469,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2540,6 +2566,7 @@
     "author_association": "NONE",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2636,6 +2663,7 @@
     "author_association": "NONE",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2732,6 +2760,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2828,6 +2857,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -2924,6 +2954,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3020,6 +3051,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3116,6 +3148,7 @@
     "author_association": "COLLABORATOR",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3212,6 +3245,7 @@
     "author_association": "NONE",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3308,6 +3342,7 @@
     "author_association": "OWNER",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3404,6 +3439,7 @@
     "author_association": "OWNER",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3500,6 +3536,7 @@
     "author_association": "OWNER",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3596,6 +3633,7 @@
     "author_association": "OWNER",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
@@ -3692,6 +3730,7 @@
     "author_association": "OWNER",
     "issue_field_values": [],
     "type": null,
+    "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
